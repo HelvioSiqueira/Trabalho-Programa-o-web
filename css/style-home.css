@@ -97,7 +97,7 @@ a:hover {
 
 }
 
-.title_parceiros {
+.title-como-funciona {
   position: absolute;
   bottom: 42rem;
   left: 19rem;
@@ -105,7 +105,9 @@ a:hover {
   font-family: MarkWebPro, sans-serif;
 }
 
-.parceiros {
+
+
+.como-funciona{
   align-items: center;
   margin-top: 35rem;
   margin-left: 17rem;
@@ -115,7 +117,30 @@ a:hover {
   background-color: #5179a4;
   padding: 2%;
   padding-top: 5%;
+}
 
+li{
+  margin: 2%;
+}
+
+.title-parceiros {
+  top: 85rem;
+  position: absolute;
+  left: 19rem;
+  font-size: 30pt;
+  font-family: MarkWebPro, sans-serif;
+}
+
+.parceiros {
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 17rem;
+  width: 96rem;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+  background-color: #5179a4;
+  padding: 2%;
+  padding-top: 5%;
 }
 
 .link-parceiros {
@@ -151,7 +176,7 @@ a:hover {
 
 .title-como-diferenciar {
   position: absolute;
-  margin-top: 6rem;
+  margin-top: 2rem;
   left: 19rem;
   font-size: 30pt;
   font-family: MarkWebPro, sans-serif;
@@ -159,7 +184,7 @@ a:hover {
 
 .como-diferenciar {
   align-items: top;
-  margin-top: 5rem;
+  margin-top: 1rem;
   margin-left: 17rem;
   width: 96rem;
   display: grid;
