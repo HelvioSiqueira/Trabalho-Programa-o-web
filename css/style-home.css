@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: MarkWebPro,sans-serif;
+}
+
+#menu{
+    position: fixed;
+    width: 16rem;
+    height: 100%;
+    -webkit-box-shadow: 8px 3px 15px -1px rgba(0,0,0,0.3); 
+    box-shadow: 8px 3px 15px -1px rgba(0,0,0,0.3);
+    z-index: 1;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.img_acoa{
+    width: 10rem;
+    margin-bottom: 15%;
+}
+
+.opcoes{
+    padding-top: 25%;
+}
+
+.headerButtons .buttonLogin, .buttonSignUp{
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    color: #b794f6;
+    min-width: 240px;
+    width: 240px;
+    position: relative;
+    height: 48px;
+    border: 1px solid #b794f6;
+    margin-bottom: 20px;
+}
+
+.headerButtons .buttonLogin:hover, .buttonSignUp:hover {
+    background-color: #4a26fd;
+    color: #fff;
+}
+
+.buttonLogin ,.buttonSignUp{
+    font-size: 14px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+
+#folha{
+    position: relative;
+    width: 98.2rem;
+    left: 16rem;
+    height: 100rem;
+    padding: 1%;
+    background-color: #f2fde4;
+    background-image: url("../img/latinhas.jpg");
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4a26fd;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
