@@ -48,6 +48,10 @@ body{
     font-size: 14px;
 }
 
+.bar{
+  margin-top: 35rem;
+  text-align: center;
+}
 
 #folha{
     position: relative;
